@@ -1,1 +1,2 @@
-# realTimeProblem
+# realTimeProblem (SPRING BOOT PROJECT)
+To run the application, it is required to change some database settings in application.properties file. Those settings correspond to my database. For data simulation I use Date range 1990-2019, units from array with (cm, m, kg, K, J) to create random data. This can be changed in simulateData method. For each simulation I take one of the units and get number of random records in given date range to have more realistic representation. 
